@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Buddy</title>
+    <style>
+        
+        /* General Styles */
+        body {
+    
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Home Page Styles */
+        .hero {
+            background-image: url('fashion.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        /* Filter Page Styles */
+        .filter-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .filter-container select {
+            padding: 10px;
+            font-size: 1em;
+        }
+
+        /* Login Page Styles */
+        .login-form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .login-form input[type="text"],
+        .login-form input[type="password"],
+        .login-form button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        /* Color Palette Styles */
+        .color-palette {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .color-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Style Buddy</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="filter.html">Filters</a>
+        <a href="guide .html">wardrobe guide</a>
+        <a href="trending.html">Popular Pickups</a>
+        <a href="logout.html">Logout</a>
+
+    </nav>
+    <div class="container">
+        <!-- Home Page Content -->
+        <section id="home">
+            <div class="hero">
+                <h1><img src="project.jpeg" alt="" width="1700" height="440"></h1>
+        </section>
+
+        <!-- Filter Page Content -->
+        <section id="filters">
+            <h2>Apply Filters</h2>
+            <div class="filter-container">
+                
+            <!-- Filtered content will be displayed here -->
+        </section>
+
+<section>
+    Enter Your Budget</h2>
+
+<select id="budget" name="budget">
+<option value="below 500">below 500</option>
+<option value="500 - 1000">500 - 1000</option>
+<option value="1000 - 2000">1000 - 2000</option>
+<option value="2000 - 5000">2000 - 5000</option>
+<option value="5000 - 10000">2000 - 5000</option>
+<option value="above 10000">above 10000</option>
+</select>
+</section> 
+
+<section>
+    Enter Your Body Shape</h2>
+
+<select id="bodyShape" name="bodyShape">
+<option value="hourglass">Hourglass</option>
+<option value="pear">Pear</option>
+<option value="apple">Apple</option>
+<option value="rectangle">Rectangle</option>
+<option value="invertedTriangle">Inverted Triangle</option>
+</select>
+</section>
+
+<section>
+    Enter Your Body Size</h2>
+
+    <input type="text" placeholder="Enter body size">
+
+</section>
+
+<section>
+    Enter The Type of Attire</h2>
+
+<select id="attire" name="attire">
+    <option value="casual">Casual</option>
+    <option value="formal">Formal</option>
+    <option value="sporty">Sporty</option>
+    <option value="party">party</option>
+</select>
+</section>
+
+<input type="submit" value="Filter">
+
+    
+
+        <!-- Color Palette Page Content -->
+        <section id="color-palette">
+            <h2>Color Palette</h2>
+            <div class="color-palette">
+                <div class="color-box" style="background-color: #ff0000;"></div>
+                <div class="color-box" style="background-color: #00ff00;"></div>
+                <div class="color-box" style="background-color: #0000ff;"></div>
+                <div class="color-box" style="background-color: #cbcb39;"></div>
+                <div class="color-box" style="background-color: #ff00ff;"></div>
+                <div class="color-box" style="background-color: #00d9ff;"></div>
+                <div class="color-box" style="background-color: #ff8800;"></div>
+                <div class="color-box" style="background-color: #f10d0d;"></div>
+                <div class="color-box" style="background-color: #44ff00;"></div>
+                <div class="color-box" style="background-color: #000000;"></div>   
+                <div class="color-box" style="background-color: #e3d4e3;"></div>
+                <div class="color-box" style="background-color: #706570;"></div>
+                <div class="color-box" style="background-color: #761919;"></div>
+                <div class="color-box" style="background-color: #90e596;"></div>
+                <div class="color-box" style="background-color: #321b63;"></div>
+                <div class="color-box" style="background-color: #00a2ff;"></div>
+                <div class="color-box" style="background-color: #ff00ff;"></div>
+                <div class="color-box" style="background-color: #5ac5d1;"></div>
+                <div class="color-box" style="background-color: #90e596;"></div>
+                <div class="color-box" style="background-color: #631b32;"></div>
+                <div class="color-box" style="background-color: #ffa500;"></div>
+                <div class="color-box" style="background-color: #008000;"></div>
+                <div class="color-box" style="background-color: #ffff00;"></div>
+                <div class="color-box" style="background-color: #800080;"></div>
+                <div class="color-box" style="background-color: #ffffff;"></div>
+                <div class="color-box" style="background-color: #808080;"></div>
+                <div class="color-box" style="background-color: #ffc0cb;"></div>
+                <div class="color-box" style="background-color: #ff69b4;"></div>
+                <div class="color-box" style="background-color: #800000;"></div>
+                <div class="color-box" style="background-color: #ffd700;"></div>
+                <div class="color-box" style="background-color: #00ff00;"></div>
+                <div class="color-box" style="background-color: #800080;"></div>
+                <div class="color-box" style="background-color: #ff6347;"></div>
+                <div class="color-box" style="background-color: #ffa074;"></div>
+                <div class="color-box" style="background-color: #9932cc;"></div>
+                <div class="color-box" style="background-color: #000080;"></div>
+                <div class="color-box" style="background-color: #00ff7f;"></div>
+                <div class="color-box" style="background-color: #8a2be2;"></div>
+                <div class="color-box" style="background-color: #4682b4;"></div>
+                <div class="color-box" style="background-color: #dc143c;"></div>
+                <div class="color-box" style="background-color: #7fff00;"></div>
+                <div class="color-box" style="background-color: #890008;"></div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
