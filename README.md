@@ -1,2 +1,2 @@
 # StyleBuddy
-this is a repository explaining our fashion website "Fashion Buddy"
+this is a repository explaining our fashion styling website "Style Buddy"
