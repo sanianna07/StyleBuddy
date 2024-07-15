@@ -7,3 +7,7 @@ Personalized Recommendations: Get outfit suggestions based on your style, prefer
 Trend Updates: Stay updated with the latest fashion trends and seasonal styles.
 Virtual Closet: Organize your wardrobe digitally and get recommendations on how to mix and match your clothes.
 Style Tips: Access a wide range of fashion tips and advice from experts.
+# Technology Stack
+- HTML
+- CSS
+- JAVASCRIPT
